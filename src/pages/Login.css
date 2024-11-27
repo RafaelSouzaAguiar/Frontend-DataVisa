@@ -1,0 +1,142 @@
+label,
+input {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    align-self: stretch;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.84px;
+    word-wrap: break-word;
+}
+
+.header-div {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    word-wrap: break-word;
+    margin-left: 20px;
+}
+
+.input-div {
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+}
+
+.input-field {
+    width: 90%;
+    border-radius: 5px;
+    border: 1px #374957 solid;
+    height: 35px;
+    opacity: 0.60;
+    background: #C1C7CB;
+    font-size: 14px;
+    font-weight: 400;
+    flex: 1 1 0;
+    outline: none;
+    line-height: 21.84px;
+    padding-left: 12px;
+}
+
+.input-field:-webkit-autofill,
+.input-field:-webkit-autofill:hover,
+.input-field:-webkit-autofill:focus,
+.input-field:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #C1C7CB inset !important;
+}
+
+.login-btn {
+    height: 36px;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px #171F25 solid;
+    background: transparent;
+}
+
+.login-btn:hover {
+    background: #044BD9;
+    color: white;
+    border: none
+}
+
+.submit-div {
+    height: 36px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #171F25 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    margin-bottom: 4px;
+    word-spacing: 4px;
+}
+
+.submit-btn {
+    color: #171F25;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 37.44px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+
+#eye {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: #044BD9;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+#logo-login {
+    margin-top: 15x;
+    width: 20%;
+}
+
+#panel {
+    background: white;
+    border-radius: 5px;
+    width: 70%;
+    height: calc(100vh - 100px);
+    max-height: 510px;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#waves {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+#background {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(44deg, #044BD9 0%, #00A6AB 100%);
+}
